@@ -1,0 +1,28 @@
+body {
+  font-family: Lato;
+  font-size: 15px;
+  border: 3px inset black;
+  margin: 15px;
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #551A8B;
+  color: white;
+}
+
+.logo, .home, .prices, .contact_us {
+  justify-content: space-around;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .box, .logo, .home, .prices, .contact_us { font-size: 30px;
+    flex-direction: column;
+    display: block;
+    color: red;
+}
+}
